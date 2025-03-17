@@ -1,0 +1,31 @@
+// console.log("We are here!")
+// console.log("We are here!")
+let body = document.body
+let h1 = document.getElementById("heading")
+// console.log(h1)
+h1.innerText = "Introduction to Dom and Events in JS"
+h1.style.color = "red"
+
+let topics = ["variable", "Functions", "Arrays", "scope"]
+
+let ul = document.getElementById("course-content")
+
+topics.forEach((topic)=>{
+    let li = <li>${topic}</li>
+    ul.innerHTML += li
+})
+
+let div = document.createElement("div")
+div.setAttribute("id", "content")
+div.style.height = "150px"
+div.style.width = "150px"
+div.style.backgroundColor = "blue"
+
+body.appendChild(div)
+
+div.addEventListener("click", (event) => { div.style.backgroundColor = "green"})
+let button = document.getElementsByTagName ("button")
+button.addEventListener("submit",                                                                                                                                                                       )
+function clickMe() {
+    alert("i have been clicked")
+}
