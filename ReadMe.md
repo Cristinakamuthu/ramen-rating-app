@@ -25,7 +25,8 @@ the URL of the image of the ramen
 the rating of the ramen (1-100)
 A comment about the ramen
 
-HOW JAVASCRIPT WAS USED ;
+# Java script structure 
+
 
 - The ramens and their details were displayed using the function 
 displayRamens().it appends them to the #ramen-menu div.where when an image is selected it displays information about the ramen 
